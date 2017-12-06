@@ -27,7 +27,7 @@ constructor(props){
            }
            add(e){
             console.log(this.state.input);
-            
+
            }
   
       render(){
@@ -37,6 +37,7 @@ constructor(props){
               <input value ={this.state.input} onChange={this.charge}/>
               <button onClick={this.add}>submit</button>
               <ul></ul>
+              <li>{this.state.input}</li>
               <li>{this.state.input}</li>
               </div>
           )
